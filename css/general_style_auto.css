@@ -1,0 +1,64 @@
+/* Font settings Start ------------------------------  */
+.ft_16px_fw_600_Manrope {
+  font-family: "Manrope", serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  color:#1E1B1B;
+}
+
+
+.ft_16px_fw_500_Gray_Manrope {
+  font-family: "Manrope", serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  color: #1E1B1B;
+  opacity: 0.7;
+}
+
+
+.ft_18px_fw_600_Black_Manrope {
+  font-family: "Manrope", serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 175%;
+  color:  #1E1B1B;
+  flex-shrink: 0;
+}
+
+/* Font settings End ------------------------------  */
+
+
+/* General border for content ----------------------- */
+.border_content{
+  width: 1310px;
+  height: inherit;
+  padding: 0px 15px;
+  margin: auto;
+  border: 1px solid #000;
+  background-color: #fff
+}
+
+/* General buttons ----------------------- */
+
+.orange_button {
+  padding: 16px 40px;
+  border-radius: 12px;
+  background:  #FF6433;
+  color: #FFF;
+  font-family: "Manrope", serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 175%;
+  transition: all 0.3s;
+}
+
+.orange_button:hover{
+  transform: scale(1.1);
+}
+
