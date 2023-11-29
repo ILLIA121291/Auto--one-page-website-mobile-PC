@@ -10,8 +10,8 @@
 
 
 .ft_16px_fw_500_Gray_Manrope {
-  font-family: "Manrope", serif;
   font-size: 16px;
+  font-family: "Manrope", serif;
   font-style: normal;
   font-weight: 500;
   line-height: 24px; /* 150% */
@@ -21,11 +21,23 @@
 
 
 .ft_18px_fw_600_Black_Manrope {
-  font-family: "Manrope", serif;
   font-size: 18px;
+  font-family: "Manrope", serif;
   font-style: normal;
   font-weight: 600;
   line-height: 175%;
+  color:  #1E1B1B;
+  flex-shrink: 0;
+}
+
+
+.ft_24px_fw_600_Black_Manrope {
+  font-size: 24px;
+  font-family: "Manrope", serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: -0.72px;
   color:  #1E1B1B;
   flex-shrink: 0;
 }
