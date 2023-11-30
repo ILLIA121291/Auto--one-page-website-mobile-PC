@@ -1,0 +1,91 @@
+/* Main - Section "What we offer"  */
+
+/* "What we offer" - Section borders -------------------- */
+.section_what_we_offer_main_borders{
+  margin-top: 128px;
+  height: 1052px;
+}
+
+/* "What we offer" - Titels Block -------------- */
+.what_we_offer_titels_block{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.what_we_offer_titels_block>h2 {
+  width: 858px;
+  margin-top: 8px;
+}
+
+
+/* "What we offer" - Block one -------------- */
+.what_we_offer_block_one {
+  margin-top: 64px;
+}
+
+/* <!--"What we offer" - Block one - Squares ------> */
+
+.what_we_offer_block_one_squares_ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+
+
+}
+
+.what_we_offer_block_one_squares_ul_li {
+  width: 319px;
+  height: 232px;
+  flex-shrink: 0;
+  background: #FFF;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  transition: all 0.3s;
+}
+
+.what_we_offer_block_one_squares_ul_li:hover{
+  background:  #FF6433;
+  color: #FFF;
+
+} 
+
+.what_we_offer_block_one_squares_ul_li:hover path {
+  fill: white;
+}
+
+/* <!--"What we offer" - Block one - link ------> */
+.what_we_offer_block_one_link {
+
+
+  margin-top: 32px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.what_we_offer_block_one_link>a {
+  display: flex;
+  align-items: center;
+  transition: all .1s;
+}
+
+.what_we_offer_block_one_link>a>svg{
+  margin-left: 16px;
+}
+
+.what_we_offer_block_one_link>a:hover {
+color: #61C3A1;
+}
+
+.what_we_offer_block_one_link>a:hover path {
+  fill: #61C3A1;
+  }
+

@@ -1,0 +1,45 @@
+/* Main - Section "We follow"  */
+
+/* "We follow" - Section borders -------------------- */
+.section_we_follow_main_borders{
+  margin-top: 134px;
+  
+}
+
+/* "We follow" - Block one -------------------- */
+.we_follow_block_one {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+/* "We follow" - Block one - Part Left ------ */
+.we_follow_block_one_part_left {
+  width: 524px;
+
+}
+
+.we_follow_block_one_part_left_titels_block>h2 {
+  text-align: left;
+}
+
+.we_follow_block_one_part_left_text{
+  width: 437px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* "We follow" - Block one - Part Right ------ */
+.we_follow_block_one_part_right {
+
+}

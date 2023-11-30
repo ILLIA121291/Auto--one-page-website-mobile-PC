@@ -14,10 +14,21 @@
   font-family: "Manrope", serif;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
   color: #1E1B1B;
   opacity: 0.7;
 }
+
+.ft_16px_fw_600_Gray_Manrope {
+  color:  #1E1B1B;
+  font-family: "Manrope", serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; 
+  opacity: 0.6;
+}
+
 
 
 .ft_18px_fw_600_Black_Manrope {
@@ -38,11 +49,12 @@
   font-weight: 600;
   line-height: 36px;
   letter-spacing: -0.72px;
+
   color:  #1E1B1B;
   flex-shrink: 0;
 }
 
-/* Font settings End ------------------------------  */
+/* Font Settings End ------------------------------  */
 
 
 /* General border for content ----------------------- */
@@ -51,11 +63,12 @@
   height: inherit;
   padding: 0px 15px;
   margin: auto;
+  background-color: #fff;
+
   border: 1px solid #000;
-  background-color: #fff
 }
 
-/* General buttons ----------------------- */
+/* General Buttons Start ----------------------- */
 
 .orange_button {
   padding: 16px 40px;
@@ -74,3 +87,39 @@
   transform: scale(1.1);
 }
 
+/* General Buttons End ----------------------- */
+
+/* Section titles Start --------------------- */
+
+.section_title_small {
+  color:  #1E1B1B;
+  text-align: center;
+
+  font-family: "Manrope", serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: -0.72px;
+}
+
+.section_title_big {
+  color: #1E1B1B;
+  text-align: center;
+
+  font-family: "Manrope-Pro-Bold", serif;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 76px; 
+  letter-spacing: -1.74px;
+}
+
+
+
+
+
+
+
+
+/* Section titles End --------------------- */
