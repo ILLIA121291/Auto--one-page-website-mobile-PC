@@ -142,11 +142,6 @@
   border-radius: 50%;
 }
 
-.header_block_two_left_part_button_play_video_img:hover{
-  transform: scale(1.5);
-}
-
-
 .header_block_two_left_part_button_play_video>p {
   margin-left: 8px;
   color: #1E1B1B;

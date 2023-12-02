@@ -3,6 +3,7 @@
 /* "We follow" - Section borders -------------------- */
 .section_we_follow_main_borders{
   margin-top: 134px;
+  height: 661px;
   
 }
 
@@ -24,22 +25,76 @@
 }
 
 .we_follow_block_one_part_left_text{
-  width: 437px;
+  width: 360px;
+  margin-top: 16px;
 }
 
-
-
-
-
-
-
-
-
-
+.we_follow_block_one_part_left_button {
+  margin-top: 32.54px;
+}
 
 
 
 /* "We follow" - Block one - Part Right ------ */
 .we_follow_block_one_part_right {
+  display: flex;
+  margin-right: 204px;
+}
 
+.we_follow_block_one_part_right_circles {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.we_follow_block_one_part_right_circles_circle {
+  width: 72px;
+  height: 72px;
+  background: #661CE7;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.we_follow_block_one_part_right_circles_circle> div {
+  width: 36px;
+  height: 36px;
+  background: white;
+  opacity: 0.2;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 51px;
+  left: 18px;
+}
+
+.we_follow_block_one_part_right_circles_dotted_line {
+  width: 2px;
+  height: 71px;
+  border-left: 2px dotted #FF6433;
+
+  margin: 16px auto;
+}
+
+.we_follow_block_one_part_right_text {
+  width: 280px;
+  margin-left: 24px;
+}
+
+.we_follow_block_one_part_right_text>dl>dd {
+  margin-top: 8px;
+  margin-bottom: 23px;
+}
+
+.we_follow_block_one_part_right_text>dl>dd:last-child {
+  margin-bottom: 0px;
+}
+
+.we_follow_block_one_part_right_text>dl>dt:first-child{
+  margin-top: 10px;
 }
