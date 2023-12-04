@@ -1,0 +1,58 @@
+/* Our blog */
+
+/* Our blog - Block one */
+.our_blog_block_one {
+margin-top: 131px;
+
+}
+
+/* Our blog - Block two */
+/* Our blog - Block two - Buttons */
+.our_blog_block_two_buttons{
+  margin-top: 47px;
+  display: flex;
+}
+
+.our_blog_block_two_buttons>button {
+  background: none;
+  margin-right: 30px;
+  transition: all 0.3s;
+}
+.our_blog_block_two_buttons>button:last-child {
+  margin-right: 0px;
+}
+
+.our_blog_block_two_buttons>button:hover{
+  color: #61C3A1;
+}
+
+/* Our blog - Block two - Articles Cards */
+.our_blog_block_two_articles_cards {
+  margin-top: 46px;
+  display: grid;
+  grid-template: repeat(2, auto) / repeat(3, auto);
+  row-gap: 64px;
+  column-gap: 32px;
+
+}
+
+
+
+
+/* Our blog - Block two - Article Card */
+.our_blog_article_card {
+  width: 405px;
+}
+
+.our_blog_article_card_publication_date {
+  margin-top: 24px;
+}
+
+.our_blog_article_card_titel {
+  margin-top: 16px;
+  width: 350px;
+}
+
+.our_blog_article_card_text {
+  margin-top: 16px;
+}
