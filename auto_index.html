@@ -8,7 +8,9 @@
 
   <link rel="stylesheet" 
   href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-
+  
+  
+  
   <link rel="stylesheet" href="./css/general_style_auto.css">
   <link rel="stylesheet" href="./css/header_style.css">
   <link rel="stylesheet" href="./css/main_section_1_what_we_offter.css">
@@ -117,7 +119,7 @@
 
 <!-- Main Start -------------------------------------->
 <main>
-  <!-- Section "What we offer" ------>
+  <!-- Section - 1 - "What we offer" ------>
   <section class="section_what_we_offer_main_borders">
     <div class="border_content">
       <!-- "What we offer" - Titels Block ------>
@@ -208,7 +210,7 @@
       </div>
     </div>
   </section>
-  <!-- Section "We follow" ------>
+  <!-- Section - 2 - "We follow" ------>
   <section class="section_we_follow_main_borders">
     <div class="border_content">
       <!-- "We follow" - Block one ------>
@@ -258,7 +260,7 @@
 
     </div>
   </section>
-  <!-- Section "Get in touch" -->
+  <!-- Section - 3 - "Get in touch" -->
   <section class="section_get_in_touch_main_borders">
     <div class="get_in_touch_block_one">
       <img src="./imges/2_main/section_3_get_in_touch/car_background.png" alt="">
@@ -296,7 +298,7 @@
     </div>
 
   </section>
-  <!-- Section "Brands we serve" -->
+  <!-- Section - 4 - "Brands we serve" -->
   <section class="section_brands_we_serve_main_borders">
     <div class="border_content brands_we_serve_border_content">
       <div class="brands_we_serve_block_one">
@@ -404,7 +406,7 @@
       </div>
     </div>
   </section>
-  <!-- Section "Our blog" -->
+  <!-- Section - 5 - "Our blog" -->
   <section class="section_our_blog_main_borders">
     <div class="border_content">
       <div class="our_blog_block_one">
@@ -412,23 +414,37 @@
       </div>
       <div class="our_blog_block_two">
         <div class="our_blog_block_two_buttons">
+          
+          <button 
+          type="button" 
+          data-filter="all"
+          class="ft_32px_fw_700_black_Manrope" 
+          >All</button>
 
-          <button type="button" class="ft_32px_fw_700_black_Manrope" 
-          data-filter="all">All</button>
+          <button 
+          type="button" 
+          data-filter=".category-a"
+          class="ft_32px_fw_700_black_Manrope" 
+          >Latest</button>
 
-          <button type="button" class="ft_32px_fw_700_black_Manrope" 
-          data-filter=".category-a">Latest</button>
+          <button 
+          type="button" 
+          data-filter=".category-b"
+          class="ft_32px_fw_700_black_Manrope" 
+          >Popular</button>
 
-          <button type="button" class="ft_32px_fw_700_black_Manrope" 
-          data-filter=".category-b">Popular</button>
-
-          <button type="button" class="ft_32px_fw_700_black_Manrope" 
-          data-filter=".category-c">Favorites</button>
+          <button 
+          type="button" 
+          data-filter=".category-c"
+          class="ft_32px_fw_700_black_Manrope" 
+          >Favorites</button>
 
         </div>
-        <div class="our_blog_block_two_articles_cards container">
+        <div class=" container our_blog_block_two_articles_cards ">
 
-          <div class="mix category-a" data-order="1">
+          <div 
+          class="mix category-a" 
+          data-order="1">
             <a href="#"><div class="our_blog_article_card" >
               <div class="our_blog_article_card_image">
                 <img src="./imges/2_main/section_5_our_blog/our_blog_image_1.png" alt="some description">
@@ -445,7 +461,9 @@
             </div></a>
           </div>
 
-          <div class="mix category-b" data-order="2">
+          <div 
+          class="mix category-b" 
+          data-order="2">
             <a href="#" ><div class="our_blog_article_card">
               <div class="our_blog_article_card_image">
                 <img src="./imges/2_main/section_5_our_blog/our_blog_image_2.png" alt="some description">
@@ -462,7 +480,9 @@
             </div></a>
           </div>
 
-          <div class="mix category-c" data-order="3">
+          <div 
+          class="mix category-c" 
+          data-order="3">
             <a href="#" ><div class="our_blog_article_card">
               <div class="our_blog_article_card_image">
                 <img src="./imges/2_main/section_5_our_blog/our_blog_image_3.png" alt="some description">
@@ -479,7 +499,9 @@
             </div></a>
           </div>
 
-          <div class="mix category-a" data-order="4">
+          <div 
+          class="mix category-a" 
+          data-order="4">
             <a href="#" ><div class="our_blog_article_card" >
               <div class="our_blog_article_card_image">
                 <img src="./imges/2_main/section_5_our_blog/our_blog_image_4.png" alt="some description">
@@ -496,7 +518,9 @@
             </div></a>
           </div>
 
-          <div class="mix category-b" data-order="5">
+          <div 
+          class="mix category-b" 
+          data-order="5">
             <a href="#" ><div class="our_blog_article_card">
               <div class="our_blog_article_card_image">
                 <img src="./imges/2_main/section_5_our_blog/our_blog_image_5.png" alt="some description">
@@ -513,7 +537,9 @@
             </div></a>
           </div>
 
-          <div class="mix category-c" data-order="6">
+          <div 
+          class="mix category-c" 
+          data-order="6">
             <a href="#" ><div class="our_blog_article_card">
               <div class="our_blog_article_card_image">
                 <img src="./imges/2_main/section_5_our_blog/our_blog_image_6.png" alt="some description">
@@ -550,15 +576,13 @@
 
 <!-- SCRIPTS -------- SCRIPTS -------- SCRIPTS -->
 
-  <script src="./auto_main.js"></script>
-  <script src="./js/mixitup.min.js"></script>
+
 
   
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js">
-  </script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-
-
+  <script src="./js/mixitup.min.js"></script>
+  <script src="./auto_main.js"></script>
   
 
 </body>

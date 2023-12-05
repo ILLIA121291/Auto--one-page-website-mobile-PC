@@ -7,6 +7,7 @@ margin-top: 131px;
 }
 
 /* Our blog - Block two */
+
 /* Our blog - Block two - Buttons */
 .our_blog_block_two_buttons{
   margin-top: 47px;
@@ -30,12 +31,11 @@ margin-top: 131px;
 .our_blog_block_two_articles_cards {
   margin-top: 46px;
   display: grid;
-  grid-template: repeat(2, auto) / repeat(3, auto);
+  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
   row-gap: 64px;
   column-gap: 32px;
 
 }
-
 
 
 
