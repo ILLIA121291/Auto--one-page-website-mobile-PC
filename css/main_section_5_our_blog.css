@@ -23,7 +23,7 @@ margin-top: 131px;
   margin-right: 0px;
 }
 
-.our_blog_block_two_buttons>button:hover{
+.our_blog_push_button{
   color: #61C3A1;
 }
 
@@ -34,9 +34,7 @@ margin-top: 131px;
   grid-template: repeat(2, 1fr) / repeat(3, 1fr);
   row-gap: 64px;
   column-gap: 32px;
-
 }
-
 
 
 /* Our blog - Block two - Article Card */
@@ -53,6 +51,9 @@ margin-top: 131px;
   width: 350px;
 }
 
+
 .our_blog_article_card_text {
   margin-top: 16px;
 }
+
+

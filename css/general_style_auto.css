@@ -186,10 +186,12 @@
 }
 
 
-
-
-
-
-
-
 /* Section titles End --------------------- */
+
+/* Transition Start ----------------------- */
+
+.transiton_all_0_3_s {
+  transition: all 0.3s;
+}
+
+/* Transition End ----------------------- */
