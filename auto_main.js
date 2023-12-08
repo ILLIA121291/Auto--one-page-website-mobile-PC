@@ -12,6 +12,47 @@ $(function () {
     
 
 
+      $('.our_customers_block_two_slider').slick({
+        arrows: false,
+        slidesToShow: 2,
+        infinity: true,
+        draggable:false,
+        waitForAnimate: false,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        
+        
+      }) 
+      $('.our_customers_slider_button_previous').on('click', function (e) {
+        e.preventDefault()
+        $('.our_customers_block_two_slider').slick('slickPrev')
+      })
+    
+      $('.our_customers_slider_button_next').on('click', function (e) {
+        e.preventDefault()
+        $('.our_customers_block_two_slider').slick('slickNext')
+      })
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 })
 
 

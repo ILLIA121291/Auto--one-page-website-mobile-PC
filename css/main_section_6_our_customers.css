@@ -1,1 +1,60 @@
 /* Our customers */
+.section_our_customers_main_borders {
+  margin-top: 264px;
+}
+
+
+/* "Our customers" - Block One */
+
+.our_customers_block_one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.our_customers_block_one>p {
+  max-width: 780px;
+}
+
+/* "Our customers" - Block Two */
+
+/* "Our customers" - Block Two - Slider */
+
+/* Aligning the slider to the center */
+.slick-list{
+  margin-left: 45px;
+}
+
+/* "Our customers" - Block Two - Slid */
+.our_customers_block_two_slider_one_slid {
+  width: 616px;
+  height: 376px;
+  border: 1px solid #eb3c3c;
+  padding: 72px;
+  margin-right: 48px;
+  
+}
+
+.our_customers_slid_header {
+  display: flex;
+}
+
+.our_customers_slid_header_imge {
+  margin-right: 16px;
+}
+
+.our_customers_slid_text {
+  margin-top: 24px;
+}
+
+/* .slick-current{
+  margin-right: 10px;
+} */
+
+
+
+
+
+
+
+/* "Our customers" - Block Two - Buttons */
