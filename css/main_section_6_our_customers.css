@@ -1,8 +1,14 @@
 /* Our customers */
 .section_our_customers_main_borders {
   margin-top: 264px;
+
+
 }
 
+.our_customers_background {
+  background:  #F2F2F2;
+  mix-blend-mode: multiply;
+}
 
 /* "Our customers" - Block One */
 
@@ -17,7 +23,9 @@
 }
 
 /* "Our customers" - Block Two */
-
+.our_customers_block_two{
+  margin-top: 76px;
+}
 /* "Our customers" - Block Two - Slider */
 
 /* Aligning the slider to the center */
@@ -29,10 +37,11 @@
 .our_customers_block_two_slider_one_slid {
   width: 616px;
   height: 376px;
-  border: 1px solid #eb3c3c;
   padding: 72px;
   margin-right: 48px;
   
+  background: #eaedef;
+  border-radius: 4px;
 }
 
 .our_customers_slid_header {
@@ -47,14 +56,97 @@
   margin-top: 24px;
 }
 
-/* .slick-current{
-  margin-right: 10px;
-} */
-
-
-
-
-
-
 
 /* "Our customers" - Block Two - Buttons */
+
+.our_customers_block_two_buttons {
+  margin-top: 16px;
+  margin-bottom: 159px;
+  height: 50px;
+
+  position: relative;
+  
+}
+
+/* "Our customers" - Block Two - Indicator Block */
+
+
+.our_customers_block_two_buttons_for_slider {
+  width: 120px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  
+}
+
+.our_customers_slider_button_img {
+
+  width: 50px;
+  height: 50px;
+  background: #f9beac;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: all 0.3s;
+}
+
+
+.our_customers_slider_button_img:hover{
+  background: #1E1B1B;
+  transform: scale(1.2);
+}
+
+.our_customers_slider_button_img:hover path {
+  fill: white;
+}
+
+
+/* "Our customers" - Block Two - Indicator Buttons  */
+.our_customers_block_two_buttons_indicator .slick-dots {
+  position: absolute;
+  top: 0%;
+  left: 40%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.our_customers_block_two_buttons_indicator li {
+  margin-right: 12px;
+}
+
+.our_customers_block_two_buttons_indicatorli:last-child{
+  margin-right: 0px;
+}
+
+.our_customers_block_two_buttons_indicator button {
+  font-size: 0px;
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.our_customers_block_two_buttons_indicator button::before {
+  content: "";
+  width: 100%;
+  height: 3px;
+  background-color: #B3B7BC;
+  border-radius: 3px;
+}
+
+.our_customers_block_two_buttons_indicator .slick-active button::before{
+  background-color: #FF6433;
+  transition: all 0.3s;
+}

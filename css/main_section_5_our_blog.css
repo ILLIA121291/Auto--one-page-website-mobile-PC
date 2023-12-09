@@ -40,6 +40,13 @@ margin-top: 131px;
 /* Our blog - Block two - Article Card */
 .our_blog_article_card {
   width: 405px;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.our_blog_article_card_image {
+  overflow: hidden;
+  border-radius: 4px;
 }
 
 .our_blog_article_card_publication_date {

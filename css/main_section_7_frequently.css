@@ -1,0 +1,86 @@
+/* Section - 7 - "Frequently" */
+
+.section_frequently_main_borders {
+  background: #E2E6E9;
+  
+}
+
+.frequently_background{
+  background: transparent;
+}
+
+/* "Frequently" - Block one */
+
+.frequently_block_one {
+  margin-top: 128px;
+}
+
+
+/* "Frequently" - Block two */
+
+.frequently_block_two {
+  margin-top: 86px;
+  margin-bottom: 128px;
+}
+
+.frequently_block_two_section {
+  width: 890px;
+  margin: auto;
+  background: #fff;
+
+  padding: 40px;
+  margin-bottom: 12px;
+
+  border-radius: 5px;
+}
+
+.frequently_section_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.frequently_section_header_button{
+  width: 50px;
+  height: 50px;
+  background: #FF6433;
+  position: relative;
+  border-radius: 4px;
+}
+
+.frequently_section_button_open{
+  display: inline-block;
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 2px;
+
+  position: absolute;
+  top: 23px;
+  left: 12px;
+
+  transition: all 0.3s;
+}
+
+.frequently_section_close{
+  display: inline-block;
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  transform: rotate(90deg);
+  border-radius: 2px;
+  
+  position: absolute;
+  top: 23px;
+  left: 12px;
+
+  transition: all 0.3s;
+}
+
+
+.frequently_section_text {
+  margin-top: 16px;
+  width: 700px;
+
+  /* display: none; */
+}

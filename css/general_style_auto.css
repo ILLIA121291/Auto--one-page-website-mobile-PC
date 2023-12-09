@@ -40,6 +40,15 @@
 }
 
 
+.ft_18px_fw_600_Gray_Manrope {
+  font-size: 18px;
+  font-family: "Manrope", serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 175%;
+  color: #939191;
+}
+
 .ft_18px_fw_600_Black_Manrope {
   font-size: 18px;
   font-family: "Manrope", serif;
