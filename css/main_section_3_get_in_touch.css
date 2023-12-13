@@ -1,12 +1,17 @@
 /* Section "Get in touch" */
 .section_get_in_touch_main_borders{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   position: relative;
 }
 
 /* Section "Get in touch" - Block one */
-.get_in_touch_block_one {
-  display: flex;
-  
+
+.get_in_touch_block_one{
+  background: transparent;
 }
 
 .get_in_touch_orange_block {
@@ -15,16 +20,11 @@
   flex-shrink: 0;
 
   background: #FF6433;
-
-  position: absolute;
-  top: 0px;
-  left: 297px;
 }
 
 .get_in_touch_orange_block>p {
   width: 569px;
   height: 134px;
-  margin-top: 128px;
   margin-left: 80px;
   margin-right: 80px;
 }
@@ -34,6 +34,16 @@
   margin-top: 48.54px;
   margin-left: 61px;
 }
+
+.get_in_touch_image_background {
+  display: flex;
+  border: 1px solid #ff1818;
+
+  z-index: -1;
+  position: absolute;
+  top: 0px;
+}
+
 
 /* Section "Get in touch" - Block two */
 .get_in_touch_block_two {

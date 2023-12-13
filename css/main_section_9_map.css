@@ -1,0 +1,30 @@
+/* Section - 9 - "Map" */
+
+.section_map_main_borders {
+  margin-top: 178px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.map_border_content {
+  background: transparent;
+}
+
+
+/* Section - 9 - "Map" - Block One */
+
+.map_block_one {
+  height: 512px;
+  
+}
+
+/* Section - 9 - "Map" - Block Two */
+
+.section_map_main_borders_img_background {
+  z-index: -1;
+  position: absolute;
+  top: 350px;
+}
