@@ -35,10 +35,6 @@ $(function () {
       })
     
 
-
-
-
-
 })
 
 
@@ -70,23 +66,31 @@ for (let card of articleCards) {
 
 // Section - 7 - "Frequently" - Start -->
 
-let frequentlyBtnAll = document.querySelectorAll('.frequently_section_header_button')
-let b = document.querySelector('.frequently_section_text')
-let c = document.querySelector('.frequently_section_button_close')
+let containerFrequently = document.querySelector('.frequently_block_two')
 
 
-for (let btn of frequentlyBtnAll) {
+function openSection (event){
+  let btn = event.target.closest('.frequently_section_header_button')
 
-  btn.addEventListener ('click', openSection)
-  
-  
-  function openSection (event){
-    let text = document.querySelectorAll('.frequently_section_text')[btn.getAttribute('data-number')-1]
-    let indicator = document.querySelectorAll('.frequently_section_button_close')[btn.getAttribute('data-number')-1]
+  if(btn) {
+    let parent = btn.parentElement.parentElement
+
+    let text = parent.querySelector('.frequently_section_text')
+    let indicator = parent.querySelector('.frequently_section_button_close')
+
     text.hidden = !text.hidden
     indicator.classList.toggle('frequently_section_close')
   }
-
 }
 
+containerFrequently.addEventListener ('click', openSection)
+
 // Section - 7 - "Frequently" - End -->
+
+
+
+
+
+
+
+
