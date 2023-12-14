@@ -38,36 +38,46 @@ $(function () {
 })
 
 
-// Section - 5 - "Our blog" - Titel color - Start -->
 
-let articleCards = document.querySelectorAll('.articleCardHover')
+// Section - 5 - "Our blog" - Articles Hover Effect - Start -->
 
-for (let card of articleCards) {
-    let titelColor = document.querySelectorAll('.hover_js')[card.getAttribute('data-order')-1]
+let articlesContainer = document.querySelector('.our_blog_block_two_articles_cards')
 
-    card.onmouseenter = function(event){
-      titelColor.style.color = '#61C3A1'
-      card.style.background = '#eaedef'
-    }
 
-    card.onmouseleave = function(event){
+function mouseOver (event) {
+  let card = event.target.closest('.articleCardHover')
+
+  if (card.classList.contains('articleCardHover')) {
+    let titelColor = card.querySelector('.hover_js')
+
+    titelColor.style.color = '#61C3A1'
+    card.style.background = '#eaedef'
+  }
+}
+
+articlesContainer.addEventListener('mouseover', mouseOver)
+
+
+function mouseOut (event) {
+  let card = event.target.closest('.articleCardHover')
+
+  if (card.classList.contains('articleCardHover')) {
+    let titelColor = card.querySelector('.hover_js')
+
     titelColor.style.color = ''
     card.style.background = ''
-    }
+  }
+}
 
-    card.onmousedown = function(event){    
-    titelColor.style.color = ''
-    card.style.background = ''
-}
-}
-// Section - 5 - "Our blog" - Titel color - End -->
+articlesContainer.addEventListener('mouseout', mouseOut)
+
+// Section - 5 - "Our blog" - Articles Hover Effect - End -->
 
 
 
 // Section - 7 - "Frequently" - Start -->
 
 let containerFrequently = document.querySelector('.frequently_block_two')
-
 
 function openSection (event){
   let btn = event.target.closest('.frequently_section_header_button')
