@@ -12,7 +12,7 @@
 /* "Frequently" - Block one */
 
 .frequently_block_one {
-  margin-top: 128px;
+  padding-top: 128px;
 }
 
 
@@ -20,7 +20,7 @@
 
 .frequently_block_two {
   margin-top: 86px;
-  margin-bottom: 128px;
+  padding-bottom: 128px;
 }
 
 .frequently_block_two_section {

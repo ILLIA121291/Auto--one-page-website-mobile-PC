@@ -20,9 +20,11 @@
   flex-shrink: 0;
 
   background: #FF6433;
+
+  padding-top: 128px;
 }
 
-.get_in_touch_orange_block>p {
+.get_in_touch_orange_block_p {
   width: 569px;
   height: 134px;
   margin-left: 80px;

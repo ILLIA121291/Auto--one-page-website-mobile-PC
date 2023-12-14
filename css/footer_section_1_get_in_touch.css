@@ -1,0 +1,60 @@
+/* Footer - Section - 1 - "Get in touch" */
+.footer_section_get_in_touch_main_borders {
+
+  opacity: 0.98;
+  background: #1E1B1B;
+
+  margin-top: 280px;
+}
+
+/* Footer - Section - 1 - "Get in touch" - Block One*/
+.f_get_in_touch_block_one {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 128px;
+}
+
+
+
+/* Footer - Section - 1 - "Get in touch" - Block One - Part Left */
+
+.f_get_in_touch_block_one_part_left_titel {
+  margin-top: 128px;
+}
+
+.f_get_in_touch_block_one_part_left_social_media_ul {
+  display: flex;
+
+  margin-top: 64px;
+}
+
+.f_get_in_touch_block_one_part_left_social_media_ul_li {
+  margin-right: 23.67px;
+
+  
+}
+
+.f_get_in_touch_block_one_part_left_social_media_ul_li:last-child {
+  margin-right: 0px;
+}
+
+.f_get_in_touch_block_one_part_left_social_media_ul_li:hover path {
+  transition: all 0.3s;
+  fill: #FF6433;
+}
+
+
+/* Footer - Section - 1 - "Get in touch" - Block One - Part Right */
+
+.f_get_in_touch_block_one_part_right{
+  margin-top: 128px;
+  margin-right: 160px;
+}
+
+.f_get_in_touch_block_one_part_right_text_block {
+  margin-top: 32px;
+}
+
+.f_get_in_touch_block_one_part_right_text_block:first-child {
+  margin-top: 0px;
+}

@@ -1,0 +1,48 @@
+/* Footer - Section - 2 - "Copyright" */
+.footer_section_copyright_main_borders{
+  background:  #1E1B1B;
+
+}
+
+
+/* Footer - Section - 2 - "Copyright" - Block One */
+.copyright_block_one {
+  padding-top: 64px;
+  padding-bottom: 64px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* Footer - Section - 2 - "Copyright" - Block One - Logo */
+
+.copyright_block_one_logo {
+  transition: all 0.3s;
+}
+
+.copyright_block_one_logo:hover{
+  transform: scale(1.1);
+}
+
+.copyright_block_one_logo:hover path {
+  fill: #61C4A1;
+}
+
+
+/* Footer - Section - 2 - "Copyright" - Block One - Navigation */
+
+.copyright_block_one_navigation>a {
+  margin-right: 36px;
+  display: inline-block;
+  transition: all 0.3s;
+}
+
+.copyright_block_one_navigation>a:last-child {
+  margin-right: 0px;
+}
+
+.copyright_block_one_navigation>a:hover {
+  color: #61C4A1;
+  transform: scale(1.1);
+}

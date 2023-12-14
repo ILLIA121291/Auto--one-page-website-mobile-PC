@@ -5,13 +5,13 @@
 }
 
 .brands_we_serve_border_content{
-  background: none;
+  background: transparent;
 }
 
 /* Barands we serve - Block One */
 
 .brands_we_serve_block_one {
-  margin-top: 128px;
+  padding-top: 128px;
 }
 
 

@@ -39,10 +39,6 @@ $(function () {
 
 
 
-
-
-
-
 })
 
 
@@ -71,6 +67,7 @@ for (let card of articleCards) {
 // Section - 5 - "Our blog" - Titel color - End -->
 
 
+
 // Section - 7 - "Frequently" - Start -->
 
 let frequentlyBtnAll = document.querySelectorAll('.frequently_section_header_button')
@@ -91,6 +88,5 @@ for (let btn of frequentlyBtnAll) {
   }
 
 }
-
 
 // Section - 7 - "Frequently" - End -->
