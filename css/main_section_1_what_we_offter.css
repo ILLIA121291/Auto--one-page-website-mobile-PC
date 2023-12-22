@@ -3,7 +3,6 @@
 /* "What we offer" - Section borders -------------------- */
 .section_what_we_offer_main_borders{
   margin-top: 128px;
-  height: 1052px;
 }
 
 /* "What we offer" - Titels Block -------------- */
@@ -15,7 +14,7 @@
 }
 
 .what_we_offer_titels_block>h2 {
-  width: 858px;
+  max-width: 858px;
   margin-top: 8px;
 }
 
@@ -28,18 +27,12 @@
 /* <!--"What we offer" - Block one - Squares ------> */
 
 .what_we_offer_block_one_squares_ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-
-
-
+  display: grid;
+  grid-template-rows: repeat(2, minmax(150px, 230px));
+  grid-template-columns: repeat(4, minmax(150px, 320px));
 }
 
 .what_we_offer_block_one_squares_ul_li {
-  width: 319px;
-  height: 232px;
   flex-shrink: 0;
   background: #FFF;
 
@@ -49,6 +42,7 @@
   align-items: center;
   
   transition: all 0.3s;
+
 }
 
 .what_we_offer_block_one_squares_ul_li:hover{
@@ -89,3 +83,38 @@ color: #61C3A1;
   fill: #61C3A1;
   }
 
+/* Media Query - Width - 900px --------------------------------------------- */
+
+@media (max-width: 900px){
+  .what_we_offer_block_one_squares_ul {
+    grid-template-rows: repeat(2, 170px);
+    grid-template-columns: repeat(4, minmax(150px, 320px));
+  }
+
+}
+
+
+/* Media Query - Width - 700px --------------------------------------------- */
+
+@media (max-width: 700px){
+  .what_we_offer_block_one_squares_ul {
+    grid-template-rows: repeat(4, 170px);
+    grid-template-columns: repeat(2, minmax(150px, 1fr));
+  }
+
+}
+
+/* Media Query - Width - 400px --------------------------------------------- */
+
+@media (max-width: 400px){
+  .what_we_offer_block_one_squares_ul {
+    grid-template-rows: repeat(4, 145px);
+    grid-template-columns: repeat(2, minmax(140px, 1fr));
+
+    font-size: 16px;
+  }
+
+  .what_we_offer_block_one_squares_ul_li{
+    font-size: 16px;
+  }
+}

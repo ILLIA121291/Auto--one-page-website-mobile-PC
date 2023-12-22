@@ -11,7 +11,6 @@
 /* Header Block One Start ---------------------------- */
 
 .header_block_one {
-  height: 90px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -29,7 +28,6 @@
 .header_block_one_menu {
   display: flex;
   align-items: center;
-  
 }
 
 
@@ -357,18 +355,21 @@
   display: none;
 }
 
+
+
   /* Navigation - Burger manue - Button   */
   .burger_manue {
     display: block;
     padding: 6px 5px;
-    /* position: fixed;
+    position: absolute;
     top: 15px;
-    right: 15px; */
+    right: 15px;
     z-index: 101;
     border-radius: 4px;
     background-color: #5CBA99;
   }
 
+  /* Center line */
   .burger_manue>span {
     display: block;
     width: 30px;
@@ -379,6 +380,7 @@
     margin: 2px 0 ;
   }
 
+  /* Line top and bottom */
   .burger_manue::before,
   .burger_manue::after{
     content: "";
@@ -389,25 +391,32 @@
     border-radius: 3px;
   }
 
+
+.header_block_one {
+  display: none;
+}
+
   /* Navigation - Burger manue - Manue   */ 
+/* .header_block_one {
+  flex-direction: column;
+  justify-content: flex-start;
+  height: inherit;
 
-  .header_block_one_menu_navigation {
-    flex-direction: column;
-    height: inherit;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
 
-    position: absolute;
-    top: 0;
-    right: 0;
-    border: 1px solid #000;
-    z-index: 80;
-  }
+  background-color: #eebcbc;
+}
 
+.header_block_one_menu {
+  flex-direction: column;
+}
 
-
-
-
-
-
+.header_block_one_menu_navigation{
+  flex-direction: column;
+} */
 
 
 

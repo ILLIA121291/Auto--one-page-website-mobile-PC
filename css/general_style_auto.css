@@ -129,7 +129,7 @@
   font-family: "Manrope-Pro-Bold", serif;
   font-style: normal;
   font-weight: 700;
-  line-height: 48px; 
+  line-height: 150%; 
   letter-spacing: -0.96px;
   color:#1E1B1B;
 }
@@ -164,7 +164,9 @@
   padding: 0px 15px;
   margin: auto;
   background-color: #fff;
-  border: 1px solid #fc0303;
+
+  outline: 1px solid #FF6433;
+
 }
 
 .transparent_background {
@@ -205,7 +207,7 @@
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
-  line-height: 36px;
+  line-height: 150%;
   letter-spacing: -0.72px;
 }
 
@@ -217,7 +219,7 @@
   font-size: 58px;
   font-style: normal;
   font-weight: 800;
-  line-height: 76px; 
+  line-height: 131%; 
   letter-spacing: -1.74px;
 }
 
@@ -235,3 +237,63 @@
 }
 
 /* Transition End ----------------------- */
+
+
+/* Media Query - Width - 900px --------------------------------------------- */
+
+@media (max-width: 900px) {
+  .section_title_big {
+    font-size: 54px;
+  }
+}
+
+
+/* Media Query - Width - 800px --------------------------------------------- */
+
+@media (max-width: 800px) {
+  .section_title_big {
+    font-size: 44px;
+  }
+
+  .section_title_small{
+    font-size: 20px;
+  }
+}
+
+/* Media Query - Width - 500px --------------------------------------------- */
+
+@media (max-width: 500px) {
+  .section_title_big {
+    font-size: 34px;
+  }
+
+  .section_title_small{
+    font-size: 18px;
+  }
+
+  .ft_18px_fw_600_Black_Manrope{
+    font-size: 16px;
+  }
+
+  .ft_32px_fw_700_black_Manrope{
+    font-size: 28px;
+  }
+
+
+}
+
+/* Media Query - Width - 400px --------------------------------------------- */
+
+@media (max-width: 400px) {
+  .section_title_big {
+    font-size: 30px;
+  }
+
+.section_title_small{
+  font-size: 16px;
+}
+
+.ft_18px_fw_600_Gray_Manrope {
+  font-size: 16px;
+}
+}
