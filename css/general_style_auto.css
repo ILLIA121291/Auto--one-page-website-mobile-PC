@@ -258,6 +258,10 @@
   .section_title_small{
     font-size: 20px;
   }
+
+  .ft_48px_fw_700_white_Manrope {
+    font-size: 44px;
+  }
 }
 
 /* Media Query - Width - 500px --------------------------------------------- */
@@ -279,7 +283,9 @@
     font-size: 28px;
   }
 
-
+  .ft_48px_fw_700_white_Manrope {
+    font-size: 34px;
+  }
 }
 
 /* Media Query - Width - 400px --------------------------------------------- */
@@ -295,5 +301,9 @@
 
 .ft_18px_fw_600_Gray_Manrope {
   font-size: 16px;
+}
+
+.ft_48px_fw_700_white_Manrope {
+  font-size: 30px;
 }
 }

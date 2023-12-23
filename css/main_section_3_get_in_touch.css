@@ -6,40 +6,54 @@
   align-items: center;
 
   position: relative;
+  overflow: hidden;
+
 }
 
 /* Section "Get in touch" - Block one */
 
 .get_in_touch_block_one{
   background: transparent;
+  width: 100%;
+  outline: 1px solid #e78041c0;
+
+  display: flex;
+  justify-content: space-between;
 }
 
+
 .get_in_touch_orange_block {
-  width: 729px;
+  max-width: 729px;
+  width: 100%;
   height: 502px;
-  flex-shrink: 0;
 
   background: #FF6433;
 
-  padding-top: 128px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 
 .get_in_touch_orange_block_p {
-  width: 569px;
-  height: 134px;
-  margin-left: 80px;
-  margin-right: 80px;
+  display: block;
+  max-width: 520px;
+
 }
 
-.get_in_touch_orange_block>button{
-  background: #1E1B1B;
+
+.get_in_touch_orange_block_container_for_button {
   margin-top: 48.54px;
-  margin-left: 61px;
+}
+
+.get_in_touch_orange_block_container_for_button>button{
+  background: #1E1B1B;
+  
+
 }
 
 .get_in_touch_image_background {
   display: flex;
-  border: 1px solid #ff1818;
 
   z-index: -1;
   position: absolute;
@@ -50,11 +64,61 @@
 /* Section "Get in touch" - Block two */
 .get_in_touch_block_two {
   padding: 48px 15px;
-  
+  width: 100%;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-grow: 0;
+  
+  gap: 50px;
+}
+
+
+/* Media Query - 800 px ------------------------------- */
+
+@media (max-width: 800px) {
+
+  .get_in_touch_hidden_block {
+    display: none;
+  }
+
+  .get_in_touch_orange_block_p{
+    text-align: center;
+  }
+
+
+  .get_in_touch_orange_block_container_for_button {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .get_in_touch_block_two {
+    flex-direction: column;
+  }
+
+  .get_in_touch_block_two_text_block{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+
 }
 
 
 
+/* Media Query - 600 px ------------------------------- */
+
+@media (max-width: 610px) {
+
+  .get_in_touch_orange_block_container_for_content {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+
+}

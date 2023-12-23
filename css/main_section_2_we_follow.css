@@ -107,9 +107,11 @@
   }
 }
 
-/* Media Query - Width - 700px -------------------------------------*/
 
-@media (max-width: 700px){
+
+/* Media Query - Width - 900px -------------------------------------*/
+
+@media (max-width: 900px){
   .we_follow_block_one {
     flex-direction: column;
     justify-content: center;
