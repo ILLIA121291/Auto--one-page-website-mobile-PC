@@ -1,8 +1,6 @@
 /* Our customers */
 .section_our_customers_main_borders {
   margin-top: 264px;
-
-
 }
 
 .our_customers_background {
@@ -11,7 +9,6 @@
 }
 
 /* "Our customers" - Block One */
-
 .our_customers_block_one {
   display: flex;
   justify-content: center;
@@ -35,8 +32,7 @@
 
 /* "Our customers" - Block Two - Slid */
 .our_customers_block_two_slider_one_slid {
-  width: 616px;
-  height: 376px;
+  max-width: 616px;
   padding: 72px;
   margin-right: 48px;
   
@@ -58,63 +54,22 @@
 
 
 /* "Our customers" - Block Two - Buttons */
-
 .our_customers_block_two_buttons {
   margin-top: 16px;
   margin-bottom: 159px;
-  height: 50px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
   position: relative;
-  
-}
 
-/* "Our customers" - Block Two - Indicator Block */
-
-
-.our_customers_block_two_buttons_for_slider {
-  width: 120px;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  
-}
-
-.our_customers_slider_button_img {
-
-  width: 50px;
-  height: 50px;
-  background: #f9beac;
-  border-radius: 50%;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  transition: all 0.3s;
-}
-
-
-.our_customers_slider_button_img:hover{
-  background: #1E1B1B;
-  transform: scale(1.2);
-}
-
-.our_customers_slider_button_img:hover path {
-  fill: white;
 }
 
 
 /* "Our customers" - Block Two - Indicator Buttons  */
-.our_customers_block_two_buttons_indicator .slick-dots {
-  position: absolute;
-  top: 0%;
-  left: 40%;
-  
+.our_customers_block_two_buttons_indicator .slick-dots {  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -136,6 +91,7 @@
   height: 30px;
   display: flex;
   align-items: center;
+  
 }
 
 .our_customers_block_two_buttons_indicator button::before {
@@ -149,4 +105,82 @@
 .our_customers_block_two_buttons_indicator .slick-active button::before{
   background-color: #FF6433;
   transition: all 0.3s;
+}
+
+/* "Our customers" - Block Two - Buttons for slider */
+.our_customers_block_two_buttons_for_slider {
+  width: 120px;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+
+  position: absolute;
+  top: 0px;
+  right: 0px;
+
+}
+
+.our_customers_slider_button_img {
+  width: 50px;
+  height: 50px;
+
+  background-color: #f9beac;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: all 0.3s;
+}
+
+
+.our_customers_slider_button_img:hover{
+  background: #1E1B1B;
+  transform: scale(1.2);
+}
+
+.our_customers_slider_button_img:hover path {
+  fill: white;
+}
+
+
+/* Media Query - Width - 1000px --------------------------------------------- */
+
+@media (max-width: 1000px) {
+
+  .slick-list{
+    margin-left: 0px;
+  }
+
+  .our_customers_block_two_slider_one_slid {
+    margin-right: 0px;
+    max-width: 970px;
+  }
+
+  .our_customers_block_two_buttons_for_slider {
+    position: initial;
+    margin-top: 10px;
+    width: 130px;
+  }
+
+
+}
+
+/* Media Query - Width - 600px --------------------------------------------- */
+
+@media (max-width: 600px) {
+  .our_customers_block_two_slider_one_slid {
+    padding: 40px;
+  }
+}
+
+/* Media Query - Width - 400px --------------------------------------------- */
+
+@media (max-width: 400px) {
+  .our_customers_block_two_slider_one_slid {
+    padding: 20px;
+  }
 }

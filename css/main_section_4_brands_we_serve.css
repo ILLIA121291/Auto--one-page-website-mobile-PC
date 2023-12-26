@@ -1,6 +1,5 @@
 /* Section "Brands we serve" */
 .section_brands_we_serve_main_borders {
-  height: 611px;
   background: #E2E6E9;
 }
 
@@ -19,8 +18,40 @@
 
 .brands_we_serve_block_two {
   margin-top: 32.21px;
+
   display: grid;
   grid-template: repeat(2, auto) / repeat(5, auto);
   row-gap: 39.81px;
   column-gap: 38.61px;
+}
+
+/* Media Query - Width - 1300px -------------------------------- */
+
+@media (max-width: 1300px) {
+  .brands_we_serve_block_two {
+    grid-template: repeat(3, auto) / repeat(3, auto);
+    justify-items: center;
+  }
+
+  .brands_we_serve_block_two_last_svg{
+    display: none;
+  }
+}
+
+/* Media Query - Width - 800px -------------------------------- */
+@media (max-width: 800px) {
+  .brands_we_serve_block_two {
+    grid-template: repeat(5, auto) / repeat(2, auto);
+  }
+
+  .brands_we_serve_block_two_last_svg{
+    display: block;
+  }
+}
+
+/* Media Query - Width - 500px -------------------------------- */
+@media (max-width: 500px) {
+  .brands_we_serve_block_two {
+    grid-template: repeat(10, auto) / repeat(1, auto);
+  }
 }

@@ -99,7 +99,7 @@
   font-family: "Manrope", serif;
   font-style: normal;
   font-weight: 600;
-  line-height: 36px;
+  line-height: 150%;
   letter-spacing: -0.72px;
   flex-shrink: 0;
   color:#1E1B1B;
@@ -110,7 +110,7 @@
   font-family: "Manrope", serif;
   font-style: normal;
   font-weight: 600;
-  line-height: 36px;
+  line-height: 150%;
   letter-spacing: -0.72px;
   color: #FFF;
 }
@@ -239,6 +239,18 @@
 /* Transition End ----------------------- */
 
 
+/* Media Query - Width - 1000px --------------------------------------------- */
+
+@media (max-width: 1000px) {
+  .ft_32px_fw_700_black_Manrope {
+    font-size: 28px;
+  }
+
+}
+
+
+
+
 /* Media Query - Width - 900px --------------------------------------------- */
 
 @media (max-width: 900px) {
@@ -264,6 +276,14 @@
   }
 }
 
+/* Media Query - Width - 600px --------------------------------------------- */
+@media (max-width: 600px) {
+  .ft_24px_fw_600_Black_Manrope {
+    font-size: 20px;
+  }
+}
+
+
 /* Media Query - Width - 500px --------------------------------------------- */
 
 @media (max-width: 500px) {
@@ -286,6 +306,7 @@
   .ft_48px_fw_700_white_Manrope {
     font-size: 34px;
   }
+
 }
 
 /* Media Query - Width - 400px --------------------------------------------- */
@@ -306,4 +327,13 @@
 .ft_48px_fw_700_white_Manrope {
   font-size: 30px;
 }
+
+.ft_32px_fw_700_black_Manrope {
+  font-size: 24px;
+}
+
+.ft_24px_fw_600_Black_Manrope {
+  font-size: 18px;
+}
+
 }
