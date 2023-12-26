@@ -19,9 +19,18 @@ $(function () {
         draggable:false,
         waitForAnimate: false,
         appendDots:$('.our_customers_block_two_buttons_indicator'),
-        autoplay: true,
+        // autoplay: true,
         autoplaySpeed: 2000,
         dots: true,
+        responsive:[
+          {
+            breakpoint: 1000,
+            settings: {
+              slidesToShow: 1,
+            },
+          },
+    
+        ]
         
       }) 
       $('.our_customers_slider_button_previous').on('click', function (e) {
@@ -33,8 +42,6 @@ $(function () {
         e.preventDefault()
         $('.our_customers_block_two_slider').slick('slickNext')
       })
-    
-
 })
 
 
