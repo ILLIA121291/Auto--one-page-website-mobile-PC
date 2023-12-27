@@ -1,24 +1,26 @@
 /* Section - 9 - "Map" */
-
 .section_map_main_borders {
-  margin-top: 178px;
+  margin-top: 130px;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
+  overflow: hidden;
 }
 
 .map_border_content {
   background: transparent;
+  width: 100%;
+  
 }
 
 
 /* Section - 9 - "Map" - Block One */
-
 .map_block_one {
   height: 512px;
-  
+  margin-bottom: 285px;
 }
 
 /* Section - 9 - "Map" - Block Two */
@@ -27,4 +29,16 @@
   z-index: -1;
   position: absolute;
   top: 350px;
+}
+
+/* Media Query - Width - 500px --------------------------------------------- */
+@media (max-width: 500px) {
+  .map_block_one {
+    height: 300px;
+    margin-bottom: 200px;
+  }
+
+  .section_map_main_borders_img_background {
+    top: 150px;
+  }
 }

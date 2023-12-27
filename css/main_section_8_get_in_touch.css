@@ -1,21 +1,23 @@
 /* Section - 8 - "Get in touch" */
 
-.section_get_in_touch_main_borders {
-  margin-top: 120px;
+.section_get_in_touch_main_borders_two {
+  width: 100vw;
+  margin-top: 130px;
 }
 
+.get_in_touch_two_border_content {
+  width: 100%;
 
-.get_in_touch_border_content {
   display: flex;
   justify-content: space-between;
 }
 
 /* Section - 8 - "Get in touch" - Block Left*/
 .get_in_touch_block_left {
-  width: 600px;
+  max-width: 600px;
+  width: 100%;
   padding-right: 15px;
 }
-
 
 
 .get_in_touch_block_left_contact_form{
@@ -41,7 +43,6 @@ input {
 
 .get_in_touch_block_left_contact_form_li{
   padding: 10px 0px 10px 40px;
-
 }
 
 .get_in_touch_block_left_contact_form_textarea {
@@ -55,9 +56,7 @@ input {
 }
 
 
-
 /* Section - 8 - "Get in touch" - Block Right*/
-
 .get_in_touch_block_right {
   padding-top: 200px;
   padding-right: 41px;
@@ -69,4 +68,44 @@ input {
 
 .get_in_touch_block_right_opening {
   margin-top: 32px;
+}
+
+/* Media Query - Width - 1000px --------------------------------------------- */
+@media (max-width: 1000px) {
+  .get_in_touch_two_border_content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .get_in_touch_block_left_titel>p {
+    text-align: center;
+  }
+
+  .get_in_touch_block_left_contact_form_li{
+    padding: 10px 0px 10px 0px;
+  }
+
+  .get_in_touch_block_left_contact_form_li:last-child{
+    display: flex;
+    justify-content: center;
+  }
+
+  .get_in_touch_block_right {
+    padding: 0px;
+    margin-top: 20px;
+  }
+
+
+}
+
+/* Media Query - Width - 350px --------------------------------------------- */
+@media (max-width: 350px) {
+  .get_in_touch_block_left_contact_form_li:nth-child(1),
+  .get_in_touch_block_left_contact_form_li:nth-child(2),
+  .get_in_touch_block_left_contact_form_li:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+  }
+
 }

@@ -1,10 +1,9 @@
 /* Our blog */
-
-/* Our blog - Block one */
-.our_blog_block_one {
-margin-top: 131px;
-
+.section_our_blog_main_borders {
+  width: 100vw;
+  margin-top: 130px;
 }
+
 
 /* Our blog - Block two */
 

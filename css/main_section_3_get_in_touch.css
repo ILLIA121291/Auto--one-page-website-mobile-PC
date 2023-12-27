@@ -1,5 +1,7 @@
 /* Section "Get in touch" */
-.section_get_in_touch_main_borders{
+.section_get_in_touch_main_borders_one{
+  width: 100vw;
+  margin-top: 130px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,7 +17,6 @@
 .get_in_touch_block_one{
   background: transparent;
   width: 100%;
-  outline: 1px solid #e78041c0;
 
   display: flex;
   justify-content: space-between;

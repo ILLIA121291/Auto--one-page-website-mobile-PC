@@ -1,6 +1,8 @@
 /* Section - 7 - "Frequently" */
 
 .section_frequently_main_borders {
+  width: 100vw;
+  padding-top: 130px;
   background: #E2E6E9;
 }
 
@@ -11,7 +13,7 @@
 /* "Frequently" - Block one */
 
 .frequently_block_one {
-  padding-top: 128px;
+
 }
 
 
@@ -19,7 +21,7 @@
 
 .frequently_block_two {
   margin-top: 86px;
-  padding-bottom: 128px;
+  padding-bottom: 130px;
 }
 
 .frequently_block_two_section {

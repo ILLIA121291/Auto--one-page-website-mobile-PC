@@ -1,7 +1,7 @@
 /* Footer - Section - 2 - "Copyright" */
 .footer_section_copyright_main_borders{
+  width: 100vw;
   background:  #1E1B1B;
-
 }
 
 
@@ -45,4 +45,33 @@
 .copyright_block_one_navigation>a:hover {
   color: #61C4A1;
   transform: scale(1.1);
+}
+
+/* Media Query - Width - 800px --------------------------------------------- */
+@media (max-width: 800px) {
+  .copyright_block_one {
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+  }
+
+  .copyright_block_one_navigation {
+    margin: 15px 0px;
+  }
+  .copyright_block_one_navigation>a {
+    margin-right: 20px;
+  }
+}
+
+/* Media Query - Width - 400px --------------------------------------------- */
+@media (max-width: 400px) {
+  .copyright_block_one_navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .copyright_block_one_navigation>a {
+    margin: 10px 0px;
+  }
 }
