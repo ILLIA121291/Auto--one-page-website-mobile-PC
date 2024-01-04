@@ -256,6 +256,10 @@
 /* Media Query - Width - 800px --------------------------------------------- */
 
 @media (max-width: 800px) {
+  .ft_16px_fw_600_Manrope {
+    font-size: 25px;
+  }
+
   .section_title_big {
     font-size: 44px;
   }

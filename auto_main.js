@@ -106,6 +106,22 @@ containerFrequently.addEventListener ('click', openSection)
 
 
 
+// Button for burger manue - Start --------------------
+
+let burgerBtn = document.querySelector('.burger_manue')
+
+burgerBtn.onclick = function() {
+  let headerBlockOne = document.querySelector('.header_block_one')
+  headerBlockOne.classList.toggle('no_display')
+
+  let overlay = document.querySelector('.overlay')
+  overlay.classList.toggle('overlay_open')
+}
+
+
+
+
+// Button for burger manue - End ----------------------
 
 
 
