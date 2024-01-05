@@ -369,45 +369,46 @@
   /* Navigation - Burger manue - Button   */
   .burger_manue {
     display: block;
-    padding: 6px 5px;
+    width: 40px;
+    height: 40px;
+
     position: fixed;
     top: 15px;
     right: 15px;
     z-index: 101;
+
     border-radius: 4px;
     background-color: #5CBA99;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
-  /* Center line */
-  .burger_manue>span {
+  /* Burger Manue - Button - Spans - Close */
+  .burger_manue_span_close {
     display: block;
     width: 30px;
-    height: 6px;
+    height: 5px;
     margin: 3px 0px;
     background-color: #fff;
     border-radius: 3px;
-    margin: 3px 0 ;
+    transition: all 0.3s;
   }
 
-  /* Line top and bottom */
-  .burger_manue::before,
-  .burger_manue::after{
-    content: "";
-    display: block;
-    width: 30px;
-    height: 4px;
-    background-color: #fff;
-    border-radius: 3px;
+  /* Burger Manue - Button - Spans - Open */
+
+  .burger_manue_top_span_open {
+    transform: translate(0px, 12px);
   }
 
-  .burger_manue>span {
+  .burger_manue_central_span_open {
     transform: rotate(90deg);
   }
 
-  
-
-
-
+  .burger_manue_button_span_open {
+    transform: translate(0px, -11px);
+  }
 
 
   /* Navigation - Burger manue - Manue   */ 
@@ -422,11 +423,11 @@
   bottom: 0;
 
   z-index: 100;
-  padding: 60px 25px;
+  padding: 0px 70px;
 
   border: 1px solid #000;
 
-  background-color: #ee5d5d;
+  background-color: #f88b6a;
   align-items: center;
   justify-content: center;
 
@@ -435,8 +436,7 @@
 
 .no_display {
   transition: all .3s;
-  transform: translate(300px, 0px);
-
+  transform: translate(400px, 0px);
 }
 
 .header_block_one_menu {
@@ -508,6 +508,20 @@
 
 /* Media queries 400 px ----------------------------- */
 @media (max-width: 400px) {
+  .overlay {
+    display: none;
+  }
+
+  .header_block_one {
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+  }
+
+
+
   .header_block_two_left_part_main_text{
     font-size: 30px;
   }

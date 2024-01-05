@@ -106,24 +106,27 @@ containerFrequently.addEventListener ('click', openSection)
 
 
 
-// Button for burger manue - Start --------------------
+// Header - Burger Manue Open and Close - Start --------------------
 
-let burgerBtn = document.querySelector('.burger_manue')
-
-burgerBtn.onclick = function() {
-  let headerBlockOne = document.querySelector('.header_block_one')
+function CloseBurgerMenue () {
+  const headerBlockOne = document.querySelector('.header_block_one')
   headerBlockOne.classList.toggle('no_display')
 
-  let overlay = document.querySelector('.overlay')
+  const overlay = document.querySelector('.overlay')
   overlay.classList.toggle('overlay_open')
+
+  const spanCentralBurgerMenue = document.querySelectorAll('.burger_manue_span_close')[1]
+  spanCentralBurgerMenue.classList.toggle('burger_manue_central_span_open')
+
+  const spanTopBurgerMenue = document.querySelectorAll('.burger_manue_span_close')[0]
+  spanTopBurgerMenue.classList.toggle('burger_manue_top_span_open')
+
+  const spanBottomBurgerMenue = document.querySelectorAll('.burger_manue_span_close')[2]
+  spanBottomBurgerMenue.classList.toggle('burger_manue_button_span_open')
 }
 
+document.querySelector('.burger_manue').addEventListener('click', CloseBurgerMenue)
+document.querySelector('.overlay').addEventListener('click', CloseBurgerMenue)
+document.querySelector('.header_block_one').addEventListener('click', CloseBurgerMenue)
 
-
-
-// Button for burger manue - End ----------------------
-
-
-
-
-
+// Header - Burger Manue Open and Close - Start --------------------
