@@ -19,7 +19,7 @@ $(function () {
         draggable:false,
         waitForAnimate: false,
         appendDots:$('.our_customers_block_two_buttons_indicator'),
-        // autoplay: true,
+        autoplay: true,
         autoplaySpeed: 2000,
         dots: true,
         responsive:[
