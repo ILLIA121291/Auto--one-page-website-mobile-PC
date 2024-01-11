@@ -130,3 +130,23 @@ document.querySelector('.overlay').addEventListener('click', CloseBurgerMenue)
 document.querySelector('.header_block_one').addEventListener('click', CloseBurgerMenue)
 
 // Header - Burger Manue Open and Close - Start --------------------
+
+
+// Soft scrolling of the site when you click on the menu buttons - Start -------------
+
+
+$(".header_block_one_menu_navigation, a").on("click", function (e) {
+  e.preventDefault()
+  var id  = $(this).attr('href'),
+  top = $(id).offset().top - 100;
+  $('body,html').animate({scrollTop: top}, 1500)
+});
+
+$(".copyright_block_one_navigation, a").on("click", function (e) {
+  e.preventDefault()
+  var id  = $(this).attr('href'),
+  top = $(id).offset().top - 100;
+  $('body,html').animate({scrollTop: top}, 1500)
+});
+
+// Soft scrolling of the site when you click on the menu buttons - End -------------
