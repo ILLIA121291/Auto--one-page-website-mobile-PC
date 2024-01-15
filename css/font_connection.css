@@ -1,23 +1,33 @@
 @font-face {
-    font-family: "Manrope";
-    font-weight: normal;
-    font-style: normal;
-    src: local("Manrope Regular"), local("Manrope-Regular"), url(../fonts/Manrope/Manrope-Regular.woff2) format("woff2"), url(../fonts/Manrope/Manrope-Regular.woff) format("woff"), url(../fonts/Manrope/Manrope-Regular.eot) format("eot");
-    font-display: swap;
-}
+      font-family: "Manrope";
+      font-weight: normal;
+      font-style: normal;
+      src:  local("Manrope Regular"),
+            local("Manrope-Regular"),
+            url(../fonts/Manrope/Manrope-Regular.woff2) format("woff2"),
+            url(../fonts/Manrope/Manrope-Regular.woff) format("woff"),
+            url(../fonts/Manrope/Manrope-Regular.eot) format("eot");
+      font-display: swap;}
+
 
 @font-face {
-    font-family: "Roboto";
-  font-weight: normal;
-  font-style: normal;
-  src: local("Roboto Regular"), local("Roboto-Regular"), url(../fonts/Roboto/Roboto-Regular.woff2) format("woff2"), url(../fonts/Roboto/Roboto-Regular.woff) format("woff"), url(../fonts/Roboto/Roboto-Regular.eot) format("eot");
-  font-display: swap;
-}
+      font-family: "Roboto";
+      font-weight: normal;
+      font-style: normal;
+      src:  local("Roboto Regular"),
+            local("Roboto-Regular"),
+            url(../fonts/Roboto/Roboto-Regular.woff2) format("woff2"),
+            url(../fonts/Roboto/Roboto-Regular.woff) format("woff"),
+            url(../fonts/Roboto/Roboto-Regular.eot) format("eot");
+      font-display: swap;}
 
 @font-face {
-    font-family: "Manrope-Pro-Bold";
-  font-weight: 800;
-  font-style: normal;
-  src: local("Manrope Pro Bold"), local("Manrope-Pro-Bold"), url(../fonts/Manrope-Pro-Bold/Manrope-Pro-Bold.woff2) format("woff2"), url(../fonts/Manrope-Pro-Bold/Manrope-Pro-Bold.woff) format("woff"), url(../fonts/Manrope-Pro-Bold/Manrope-Pro-Bold.eot) format("eot");
-  font-display: swap;
-}
+      font-family: "Manrope-Pro-Bold";
+      font-weight: 800;
+      font-style: normal;
+      src:  local("Manrope Pro Bold"),
+            local("Manrope-Pro-Bold"),
+            url(../fonts/Manrope-Pro-Bold/Manrope-Pro-Bold.woff2) format("woff2"),
+            url(../fonts/Manrope-Pro-Bold/Manrope-Pro-Bold.woff) format("woff"),
+            url(../fonts/Manrope-Pro-Bold/Manrope-Pro-Bold.eot) format("eot");
+      font-display: swap;}
